@@ -8,7 +8,7 @@
 
 html {
   scroll-behavior: smooth;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 body {
@@ -139,7 +139,6 @@ main .content .service .service-item .service-item-content,
 main .content .news .news-item .news-item-content {
   display: flex;
   height: 350px;
-
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -173,15 +172,15 @@ main aside h1 {
   text-align: center;
 }
 
-main .content .news .news-item {
-  gap: 2rem;
+main .content .news .news-item .news-item-content {
+  height: 400px;
+  width: 550px;
   cursor: pointer;
 }
 main .content .news .news-item .news-item-content img {
   display: flex;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 1rem;
   width: 100%;
   height: 250px;
   object-fit: cover;
