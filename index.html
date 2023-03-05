@@ -16,28 +16,40 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <header class="navbar-container">
+    <header class="navbar-container" id="nav">
       <div class="logo">
         <img src="assets/img/Vector.png" alt="logo" />
       </div>
+   
       <nav class="nav-list">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#service">Services</a></li>
-          <li><a href="#news">Articel</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#articel">Articel</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
       </nav>
+
+      <div class="dropdown-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#articel">Articel</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </div>
     </header>
+
+     
       <main>
-        <div class="content">
+        <div class="content"  id="home">
           <div class="description">
             <div class="content-description">
               <h1 class="title">Udipo</h1>
               <p>
-                Udipo adalah sebuah website yang menyediakan layanan untuk
-                memudahkan masyarakat dalam bertransaksi dengan cara yang mudah
-                dan cepat.
+                Udipo adalah sebuah platform yang dibuat untuk memudahkan UMKM untuk membuat web dalam berjualan online. Udipo juga membantu UMKM dalam mempromosikan produknya. ada banyak service yang ada di udipo, mulai dari web design, web development, mobile App development, konsultasi, dan masih banyak lagi.
               </p>
             </div>
             <div class="content-image">
@@ -48,45 +60,41 @@
             <h1>Services</h1>
             <div class="service-item">
               <div class="service-item-content">
-                <img src="assets/img/1.png" alt="service" />
-                <h3>Service 1</h3>
+                <img src="assets/img/web.png" alt="service" />
+                <h3>Web development</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates, quae.
+                  Cara mudah untuk membuat website dengan mudah dan cepat
                 </p>
               </div>
               <div class="service-item-content">
-                <img src="assets/img/2.png" alt="service" />
-                <h3>Service 2</h3>
+                <img src="assets/img/Web-Design.png" alt="service" />
+                <h3>Web Design</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates, quae.
+                 Dwign website yang menarik dan menarik minat pembeli
                 </p>
               </div>
               <div class="service-item-content">
-                <img src="assets/img/3.png" alt="service" />
-                <h3>Service 3</h3>
+                <img src="assets/img/mobile app.png" alt="service" />
+                <h3>Mobile App development</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates, quae.
+                 Buat aplikasi mobile dengan meggunakan teknologi terbaru
                 </p>
               </div>
               <div class="service-item-content">
-                <img src="assets/img/3.png" alt="service" />
-                <h3>Service 3</h3>
+                <img src="assets/img/konsul.png" alt="service" />
+                <h3>Konsultasi</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates, quae.
+                Konsultasikan bisnis anda di udipo
                 </p>
               </div>
             </div>
           </div>
-          <article id="news">
+          <article id="articel">
             <div class="news">
             <h1>Articles</h1>
             <div class="news-item">
               <div class="news-item-content">
-                <img src="assets/img/1.png" alt="news" />
+                <img src="assets/img/news2.jpg" alt="news" />
                 <h3>News 1</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -94,7 +102,7 @@
                 </p>
               </div>
               <div class="news-item-content">
-                <img src="assets/img/2.png" alt="news" />
+                <img src="assets/img/news3.PNG" alt="news" />
                 <h3>News 2</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -102,8 +110,8 @@
                 </p>
               </div>
               <div class="news-item-content">
-                <img src="assets/img/2.png" alt="news" />
-                <h3>News 2</h3>
+                <img src="assets/img/news1.jpg" alt="news" />
+                <h3>Perkembangan teknologi sangat 2020</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptates, quae.
@@ -132,7 +140,7 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptates, quae.
                 </p>
-              </div>             
+              </div>                                        
             </div>
           </div>
           </article>
@@ -151,8 +159,7 @@
 
                 <h3>Web Developer</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quisquam, quae.
+                  Aku merupakan seorang masiswa jurusan informatikas di salah satu perguruan tinggi di kabupaten sumenep, sekaerang aku fokus sebagai web dveloper dan juga sebagai seorang freelancer.
                 </p>
 
                 <div class="contact-content-social">
@@ -188,8 +195,10 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <p>Udipo &copy; 2023</p>
+          <p>Ach. Fikri &copy; 2023</p>
         </div>
       </footer>
+  <script src="assets/js/script.js"></script>
   </body>
+
 </html>
